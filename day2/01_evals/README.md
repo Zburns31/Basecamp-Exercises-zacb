@@ -12,7 +12,7 @@ How to build evals for AI agents: defining test tasks, writing graders, running 
 
 ## How to run
 
-Work the exercise in the repo — don't copy code out of a chat window. No terminal setup needed: the **Setup — connect to Claude** cell at the top asks for your API key with a hidden prompt and shows a green **"✓ API key verified"** banner once you're connected. (If `ANTHROPIC_API_KEY` is already set in your environment, it's picked up automatically.)
+Work the exercise in the repo — don't copy code out of a chat window. No terminal setup needed: the **Setup — connect to Codemie** cell at the top reads `ANTHROPIC_BASE_URL`, `ANTHROPIC_AUTH_TOKEN`, and `CODEMIE_MODEL` from the repo `.env` and shows a green **"✓ Codemie connection verified"** banner once you're connected. The endpoint is Anthropic-compatible, so the rest of the exercise keeps using the Anthropic Python SDK. If your Codemie deployment exposes a different model ID, change only `CODEMIE_MODEL` in `.env`.
 
 ### VS Code / Cursor (recommended)
 
