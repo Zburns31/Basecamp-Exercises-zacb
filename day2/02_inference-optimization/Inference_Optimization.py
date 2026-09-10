@@ -253,7 +253,7 @@ def _model(name):
 
 # Named models the exercise uses — resolved for whichever provider you're on.
 MODEL = _model("claude-sonnet-5")        # the workhorse for this exercise
-FAST_MODEL = _model("claude-haiku-4-5")  # cheap + quick (connection check, judges)
+FAST_MODEL = _model("claude-haiku-4-5-20251001")  # cheap + quick (connection check, judges)
 BIG_MODEL = _model("claude-opus-4-8")    # when you want to try a larger model
 
 
